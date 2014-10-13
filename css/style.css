@@ -1,1 +1,56 @@
 /* Empty. Add your own CSS if you like */
+
+@font-face {
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto-Light'), url("../fonts/roboto/Roboto-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local('RobotoCondensed-Regular'), url("../fonts/roboto/RobotoCondensed-Regular.ttf") format('truetype');
+}
+
+body, h1, h2, h3, h4, h5, h6, p, input, button, select, textarea  {
+    font-family: 'Roboto-Light', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: rgb(204, 204, 204);
+}
+
+body {
+  background: rgb(56, 56, 56);
+}
+
+.w-navbar {
+  border: 0px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+.w-index-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.w-index-container .row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.w-index-container .row div {
+  padding: 5px;
+  text-align: center;
+}
+
+.w-index-container .row a {
+  color: rgba(255,255,255,0.7);
+  cursor: pointer;
+  /*border: 2px solid gray;*/
+  /*border-radius: 20px;*/
+  display: block;
+  height: 150px;
+  background: rgb(26, 26, 26);
+}
